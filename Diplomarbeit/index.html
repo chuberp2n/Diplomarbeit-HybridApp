@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+    <script type="text/javascript" src="klass.min.js"></script>
+    <script type="text/javascript" src="code.photoswipe-3.0.4.min.js"></script>
+
+
+
     <title> Test Diplomarbeit</title>
 </head>
 <body>
@@ -75,12 +81,96 @@
     </div>
 
 </div>
+
+
 <div data-role="page" id="page1">
 
     <div data-role="header" data-theme="c" data-position="inline">
         <img src="Download.jpg"  height="100" width="200"/>
         <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
     </div>
+
+    <div data-role="content">
+
+        <a href="#page-dialog" data-rel="dialog" data-role="button">Zeige Hotels</a>
+
+
+        <label for="flip-a">Select slider:</label>
+        <select name="slider" id="flip-a" data-role="slider" data-mini="true">
+            <option value="off">Off</option>
+            <option value="on">On</option>
+        </select>
+
+        <label for="in-slider">Slider Input</label>
+        <input type="range" id="in-slider" min="0" max="100" data-highlight="true"/>
+
+
+
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="horizontal"/>
+                <legend>Abflugdatum:</legend>
+
+                <label for="select-day">Day</label>
+                <select name="select-day" id="select-day">
+                    <option> 1 </option>
+                    <option> 2 </option>
+                    <option> 3 </option>
+                    <option> 4 </option>
+                    <option> 5 </option>
+                    <option> 6 </option>
+                    <option> 7 </option>
+                    <option> 8 </option>
+                    <option> 9 </option>
+                    <option> 10 </option>
+                    <option> 11 </option>
+                    <option> 12 </option>
+                    <option> 13 </option>
+                    <option> 14 </option>
+                    <option> 15 </option>
+                    <option> 16 </option>
+                    <option> 17 </option>
+                    <option> 18 </option>
+                    <option> 19 </option>
+                    <option> 20 </option>
+                    <option> 21 </option>
+                    <option> 22 </option>
+                    <option> 23 </option>
+                    <option> 24 </option>
+                    <option> 25 </option>
+                    <option> 26 </option>
+                    <option> 27 </option>
+                    <option> 28 </option>
+                    <option> 29 </option>
+                    <option> 30 </option>
+                    <option> 31 </option>
+                </select>
+
+                <label for="select-month">Month</label>
+                <select name="select-month" id="select-month">
+                    <option> Jänner </option>
+                    <option> Februar </option>
+                    <option> März </option>
+                    <option> April </option>
+                    <option> Mai </option>
+                    <option> Juni </option>
+                    <option> Juli </option>
+                    <option> August </option>
+                    <option> September </option>
+                    <option> Oktober </option>
+                    <option> November </option>
+                    <option> Dezember </option>
+                </select>
+
+                <label for="select-year">Year</label>
+                <select name="select-year" id="select-year">
+                    <option> 2012 </option>
+                    <option> 2013 </option>
+                </select>
+       </div>
+
+    </div>
+
+
 </div>
 
 <div data-role="page" id="AGB">
@@ -128,6 +218,39 @@
 
     <div data-role="content">
         <p><h1>Hier wird der Newsletter stehen</h1></p>
+    </div>
+
+</div>
+
+<div data-role="page" id="page-dialog">
+
+    <div data-role="header">
+        <img src="Download.jpg"  height="50" width="100"/>
+        <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
+    </div>
+
+    <div data-role="content">
+
+
+        <ul id="Gallery">
+            <li><img src="Download.jpg"></li>
+            <li><img src="001.jpg" height="100" width="100"></li>
+            <li><img src="002.jpg" height="100" width="100"></li>
+            <li><img src="003.jpg" height="100" width="100"></li>
+            <li><img src="004.jpg" height="100" width="100"></li>
+            <li><img src="005.jpg" height="100" width="100"></li>
+            <li><img src="006.jpg" height="100" width="100"></li>
+            <li><img src="007.jpg" height="100" width="100"></li>
+            <li><img src="008.jpg" height="100" width="100"></li>
+            <li><img src="009.jpg" height="100" width="100"></li>
+            <li><img src="010.jpg" height="100" width="100"></li>
+        </ul>
+
+    </div>
+
+    <div data-role="footer">
+
+
     </div>
 
 </div>
