@@ -1,0 +1,7 @@
+# Using PhoneGap and Worklight for Mobile App Development in the Enterprise
+http://www.youtube.com/watch?v=GMxbEnkGHGM&feature=related
+
+
+### Bücher:
+Phonegap Beginner's Guide
+http://www.amazon.de/Phonegap-Beginners-Guide-Andrew-Lunny/dp/1849515360%3FSubscriptionId%3DAKIAJRTSBZ2KET3GZJZA%26tag%3Dsebastianvier-21%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1849515360

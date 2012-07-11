@@ -1,0 +1,27 @@
+Im oberen Bereich des Bildschrims sollte das Logo(bei berühren kommt man auf den Startscreen zruück) und ein Such Button(Suchleiste ein oder aus) angezeigt werden.
+Gleich anschließend darunter befindet sich die Navigation, wo man zwischen den verschiedenen Sub-Sites wählen kann.
+Ebenfalls befindet sich noch ein Such-Feld, welches man durch Button klickt aus- und einschalten kann.
+Im unteren Bereich der App befindet sich noch einzelne Felder mit Verlinkung (AGB, Impressum, Kontakt,..).
+(Diese Element sollten sich auf jeder einzelnen Seite befinden, sprich ein Globales-Template)
+____________________
+
+Startseite:
+---------
+Auf der Startseite werden spezielle Angebote angezeigt und somit herausgehoben.
+Man kann zusätzlich noch zwischen verschiedenen Ländern wählen.
+
+Erste Subsite(Lasminute):
+--------
+Auf den Screens (z.B.: Lastminute,Pauschalreisen) werden Angebote mittels Bilder unter den Globalen Template dargestellt.
+Mittels Swap (ziehen über das Display) können die nächsten Angebote betrachtet werden.
+Zusätzlich kann noch in der Subsite auf gewählte Regionen klicken, die aufgerufen werden sollten
+
+Angebotsseite:
+---------
+Hier werden die Angebote dargestellt.
+
+_____________
+https://free-diplomarbeithybridapp.proto.io
+
+E-mail: ch@plan2.net
+pw: Basslove_94

@@ -1,0 +1,37 @@
+HTML 5 Handbuch:
+
+http://webkompetenz.wikidot.com/docs:html-handbuch
+---------
+
+In diesem Video erfährt man etwas über das Grundgerüst wie das aussieht in HTML 5 und einige neue Elemente werden vorgestellt und eingebunden.
+
+Teil1:
+http://www.youtube.com/watch?v=es0nwHkG2AI&feature=related
+Teil2:
+http://www.youtube.com/watch?v=xfNaRmmjbbs&feature=fvwrel
+
+http://www.youtube.com/watch?v=nwrb4cqAoXA
+
+-----------------
+
+Auf dieser Website werden die neuen Tags aufgelistet und eine kleine Erklärung  findet man dazu.
+http://www.css-manufaktur.de/information/html5_css3.pdf
+
+-------
+Teil 1:
+http://www.youtube.com/watch?v=kqMVdEgWN40
+
+Teil 2:
+http://www.youtube.com/watch?v=G0CWgLInNv8&feature=relmfu
+
+Teil 3:
+http://www.youtube.com/watch?v=xntbhZBX5Ww&feature=relmfu
+
+Teil 4:
+http://www.youtube.com/watch?v=4q1leUOZEJU&feature=relmfu
+
+Teil 5:
+http://www.youtube.com/watch?v=17jvu4JdPX8&feature=relmfu
+
+
+
