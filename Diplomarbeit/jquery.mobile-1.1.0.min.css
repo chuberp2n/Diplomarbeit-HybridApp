@@ -6,21 +6,27 @@
     margin-top: 10px;
 }
 #s-field{
-    margin: 20px 0px 20px 1200px;
+    margin: 20px 0px 20px 300px;
 }
+
 #t1{
+
     padding-left: 10px;
-    padding-right: 470px;
+    padding-right: 50px;
 }
 #t2{
+
     padding-left: 0px;
-    padding-right: 300px;
+    padding-right: 50px;
 }
 #t3{
-    padding-left: 250px;
-    padding-right: 100px;
+
+    padding-left: 10px;
+    padding-right: 50px;
 }
 #t4{
-    padding-left: 450px;
-    padding-right: 0px;
+
+    padding-left: 0px;
+    padding-right: 10px;
 }
+
