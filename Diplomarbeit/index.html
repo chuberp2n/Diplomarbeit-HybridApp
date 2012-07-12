@@ -6,19 +6,13 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
-
-    <script type="text/javascript" src="klass.min.js"></script>
-    <script type="text/javascript" src="code.photoswipe-3.0.4.min.js"></script>
-
-
-
     <title> Test Diplomarbeit</title>
 </head>
 <body>
 <div data-role="page" id="start" >
 
     <div data-role="header" data-position="inline" data-theme="c">
-        <img src="Download.jpg" href="index.html" height="100" width="200"/>
+        <img src="Download.jpg" href="index.html" height="50" width="100"/>
 
         <label for="search-basic">Search Input:</label>
         <input type="search" name="search-basic" id="search-basic" value="" placeholder="Geben Sie Ihr Reisziel an?"/>
@@ -28,7 +22,7 @@
             <ul>
                 <li><a href="#page1" data-role="button" data-theme="b">Last Minute</a></li>
                 <li><a href="#show-toolbar" data-role="button" data-theme="b">Pauschalreisen</a></li>
-                <li><a href="#" data-role="button" data-theme="b">Städtereisen</a></li>
+                <li><a href="#page2" data-role="button" data-theme="b">Städtereisen</a></li>
                 <li><a href="#page2" data-role="button" data-theme="b">Fernreisen</a></li>
                 <li><a href="#page2" data-role="button" data-theme="b">Flüge</a></li>
             </ul>
@@ -85,7 +79,7 @@
 <div data-role="page" id="page1">
 
     <div data-role="header" data-theme="c" data-position="inline">
-        <img src="Download.jpg"  height="100" width="200"/>
+        <img src="Download.jpg"  height="50" width="100"/>
         <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
     </div>
 
@@ -175,7 +169,7 @@
 <div data-role="page" id="AGB">
 
     <div data-role="header" data-theme="c" data-position="inline">
-        <img src="Download.jpg" height="100" width="200"/>
+        <img src="Download.jpg" height="50" width="100"/>
         <a href="#" data-rel="back" class="ui-btn-right" data-role="button">Zurück</a>
     </div>
 
@@ -187,7 +181,7 @@
 <div data-role="page" id="Impressum">
 
     <div data-role="header" data-theme="c" data-position="inline">
-        <img src="Download.jpg" height="100" width="200"/>
+        <img src="Download.jpg" height="50" width="100"/>
         <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
     </div>
 
@@ -199,7 +193,7 @@
 <div data-role="page" id="Kontakt">
 
     <div data-role="header" data-theme="c" data-position="inline">
-        <img src="Download.jpg" height="100" width="200"/>
+        <img src="Download.jpg" height="50" width="100"/>
         <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
     </div>
 
@@ -211,7 +205,7 @@
 <div data-role="page" id="Newsletter">
 
     <div data-role="header" data-theme="c" data-position="inline">
-        <img src="Download.jpg" height="100" width="200"/>
+        <img src="Download.jpg" height="50" width="100"/>
         <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
     </div>
 
@@ -291,6 +285,114 @@
     <div data-role="footer">
 
     </div>
+
+</div>
+
+<div data-role="page" id="page2">
+    <div data-role="header" data-theme="b">
+        <img src="Download.jpg"  height="50" width="100"/>
+        <a href="#" data-rel="back" class = "ui-btn-right" data-role="button">Zurück</a>
+
+    </div>
+
+    <div data-role="content">
+
+
+    <label for="t-input">Text Input:</label>
+    <input type="text" name="t-input" id="t-input"/>
+
+    <label for="t-area">Textarea</label>
+    <textarea id="t-area"></textarea>
+
+    <label for="s-in">Search Input</label>
+    <input type="search" id="s-in" data-placeholder="Search Input"/>
+
+    <label for="slider-a">Flip Switch:</label>
+    <select name="slider" id="slider-a" data-role="slider" data-mini="true">
+        <option value="off">Off</option>
+        <option value="on">On</option>
+    </select>
+
+    <div data-role="fieldcontain">
+        <fieldset data-role="controlgroup">
+            <legend> Darstellungen von Checkboxes</legend>
+        <label for="checkbox1">Spanien</label>
+        <input type="checkbox" id="checkbox1" />
+        <label for="checkbox2">Holland</label>
+        <input type="checkbox" id="checkbox2" />
+        <label for="checkbox3">Griechenland</label>
+        <input type="checkbox" id="checkbox3" />
+        <label for="checkbox4">Türkei</label>
+        <input type="checkbox" id="checkbox4" />
+        <label for="checkbox5">Frankreich</label>
+        <input type="checkbox" id="checkbox5" />
+        </fieldset>
+    </div>
+
+    <div data-role="fieldcontain">
+         <fieldset data-role="controlgroup" data-type="horizontal">
+             <legend>Show Font Styling:</legend>
+             <input type="button" value="a"/>
+             <input type="button" value="b"/>
+             <input type="button" value="c"/>
+             <input type="button" value="d"/>
+         </fieldset>
+     </div>
+
+    <div data-role="fieldcontain">
+         <fieldset data-role="controlgroup">
+             <legend> RadioButtons</legend>
+             <label for="radio-choice-1">Spanien</label>
+             <input type="radio" id="radio-choice-1" name="radio-choice-1" value="choice-1" checked="checked" />
+             <label for="radio-choice-2">Griechenland</label>
+             <input type="radio" id="radio-choice-2" name="radio-choice-2" value="choice-2"/>
+             <label for="radio-choice-3">Türkei</label>
+             <input type="radio" id="radio-choice-3" name="radio-choice-3" value="choice-3"/>
+             <label for="radio-choice-4">USA</label>
+             <input type="radio" id="radio-choice-4" name="radio-choice-4" value="choice-4"/>
+             <label for="radio-choice-5">Malediven</label>
+             <input type="radio" id="radio-choice-5" name="radio-choice-5" value="choice-5"/>
+             <label for="radio-choice-6">Brasilien</label>
+             <input type="radio" id="radio-choice-6" name="radio-choice-6" value="choice-6"/>
+         </fieldset>
+     </div>
+
+    <div data-role="fieldcontain">
+        <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend>Select menu with pop up</legend>
+
+            <select  data-native-menu="false" id="select-1" >
+                <option>Spanien</option>
+                <option>Madrid</option>
+                <option>Mallorca</option>
+                <option>Ibiza</option>
+                <option>Andalusien</option>
+            </select>
+
+            <select data-native-menu="false" id="select-2">
+                <option>Griechenland</option>
+                <option>Athen</option>
+                <option>Kos</option>
+                <option>usw</option>
+            </select>
+
+            <select data-native-menu="false" id="select-3">
+                <option>Türkei</option>
+                <option>Belek</option>
+                <option>Antalya</option>
+                <option>Istanbul</option>
+            </select>
+        </fieldset>
+    </div>
+
+
+
+    </div>
+
+    <div data-role="footer">
+
+    </div>
+
 
 </div>
 
