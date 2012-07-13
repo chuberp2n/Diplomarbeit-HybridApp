@@ -6,7 +6,8 @@
     margin-top: 10px;
 }
 #s-field{
-    margin: 20px 0px 20px 300px;
+    display: none;
+    margin: 0px 50px 20px 0px;
 }
 
 #t1{
@@ -29,4 +30,9 @@
     padding-left: 0px;
     padding-right: 10px;
 }
-
+#search-button{
+    margin: 20px 0px 20px 300px;
+}
+#navbar{
+    margin: 80px 0px 0px 0px;
+}

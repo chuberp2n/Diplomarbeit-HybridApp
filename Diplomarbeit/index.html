@@ -6,6 +6,26 @@
     <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />-->
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        var count=0;
+        function onoff () {
+             count ++;
+            if (document.getElementById)
+            if(count%2 == 0)
+            {
+                document.getElementById("s-field").style.visibility = "hidden";
+                document.getElementById("s-field").style.display = "none";
+            }
+            else{
+                document.getElementById("s-field").style.visibility = "visible";
+                document.getElementById("s-field").style.display = "run-in";
+            }
+
+            /*document.getElementById("Zeile").style.visibility = "collapse";*/
+        }
+    </script>
+
     <link rel="stylesheet" type="text/css" href="jquery.mobile-1.1.0.min.css" />
     <title> Test Diplomarbeit</title>
 </head>
@@ -13,13 +33,9 @@
 <div data-role="page" id="start" >
 
     <div data-role="header" data-position="inline" data-theme="c">
-        <img src="Download.jpg" href="index.html" height="50" width="100" id="imgas"/>
+        <img src="Download.jpg" height="50" width="100" id="imgas"/>
 
-        <div id="s-field">
-        <input type="search" name="search-basic" id="search-basic" value="" placeholder="Geben Sie Ihr Reisziel an?"/>
-        </div>
-
-        <div data-role="navbar" data-theme="b">
+        <div data-role="navbar" data-theme="b" id="navbar">
             <ul>
                 <li><a href="#page1" data-role="button" data-theme="b">Last Minute</a></li>
                 <li><a href="#show-toolbar" data-role="button" data-theme="b">Pauschalreisen</a></li>
@@ -28,11 +44,21 @@
                 <li><a href="#page2" data-role="button" data-theme="b">Flüge</a></li>
             </ul>
         </div>
+
+        <div id="clickme">
+        <a data-role="button" data-icon="search" href="javascript:onoff()" class = "ui-btn-right" id="search-button">Suche</a>
+    </div>
+
     </div>
 
 
 
     <div data-role="content">
+
+        <div id="s-field" style="visibility:hidden">
+            <input type="search" name="search-basic" id="search-basic" value="" placeholder="Geben Sie Ihr Reisziel an?" />
+        </div>
+
         <label>Top Seller:</label>
         <div data-role="collapsible-set">
             <div data-role="collapsible">
