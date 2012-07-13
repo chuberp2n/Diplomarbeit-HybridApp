@@ -45,7 +45,7 @@
             </ul>
         </div>
 
-        <div id="clickme">
+        <div>
         <a data-role="button" data-icon="search" href="javascript:onoff()" class = "ui-btn-right" id="search-button">Suche</a>
     </div>
 
@@ -94,6 +94,11 @@
     </div>
 
     <div data-role="footer"  data-theme="c">
+        <a href="#AGB" data-role="none" id="a1"> <label> AGB</label> </a>
+        <a href="#Impressum" data-role="none" id="a2"> <label> Impressum</label> </a>
+        <a href="#Kontakt" data-role="none" id="a3"> <label> Kontakt</label> </a>
+        <a href="#Newsletter" data-role="none" id="a4"> <label> Newsletter</label> </a>
+        <!--
         <table border="0" id="table">
         <tr>
          <th id="t1"><a href="#AGB" data-role="none" > <label> AGB</label> </a></th>
@@ -102,6 +107,7 @@
          <th id="t4"><a href="#Newsletter" data-role="none"> <label> Newsletter</label> </a></th>
         </tr>
         </table>
+        -->
     </div>
 
 </div>
@@ -310,7 +316,7 @@
 </div>
 
 <div data-role="page" id="page2">
-    <div data-role="header" data-theme="b">
+    <div data-role="header" data-theme="c">
         <img src="Download.jpg"  height="50" width="100"/>
         <a href="#" data-rel="back" class = "ui-btn-right" data-role="button" data-icon="arrow-l">Zurück</a>
 
@@ -349,16 +355,6 @@
         <input type="checkbox" id="checkbox5" />
         </fieldset>
     </div>
-
-    <div data-role="fieldcontain">
-         <fieldset data-role="controlgroup" data-type="horizontal">
-             <legend>Show Font Styling:</legend>
-             <input type="button" value="a"/>
-             <input type="button" value="b"/>
-             <input type="button" value="c"/>
-             <input type="button" value="d"/>
-         </fieldset>
-     </div>
 
     <div data-role="fieldcontain">
          <fieldset data-role="controlgroup">
@@ -410,7 +406,7 @@
 
     </div>
 
-    <div data-role="footer">
+    <div data-role="footer" id="f-p2">
 
     </div>
 
