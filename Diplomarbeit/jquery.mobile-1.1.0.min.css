@@ -33,7 +33,7 @@
 }
 */
 #a1{
-    float: left;
+   /* float: left;*/
     margin: 0px 10px 10px 10px;
 }
 #a2{
@@ -43,7 +43,7 @@
     margin: 0px 25px 0px 25px;
 }
 #a4{
-    float: right;
+    /*float: right;*/
     margin: 0px 25px 0px 25px;
 }
 #search-button{
