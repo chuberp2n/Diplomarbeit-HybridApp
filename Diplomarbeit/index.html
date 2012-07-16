@@ -24,6 +24,39 @@
             /*document.getElementById("Zeile").style.visibility = "collapse";*/
         }
     </script>
+    <script type="text/javascript">
+
+/*
+        $('#places').bind('pageinit', function(event) {
+            getPlaces();
+        });
+*/
+
+        function getPlaces() {
+
+            var output = $('#placeList');
+
+            $.ajax({
+                url: 'http://kuoni/json.php',
+                dataType: 'jsonp',
+                jsonp: 'jsoncallback',
+                timeout: 5000,
+                success: function(data, status){
+                    $.each(data, function(i,item){
+                        var place = '<li><a href="">'+item.name +'</a></li>';
+
+                        output.append(place);
+                    });
+                    $('#placeList').listview('refresh');
+                },
+                error: function(){
+                    output.text('There was an error loading the data.');
+                }
+            });
+
+        }
+
+    </script>
 
     <link rel="stylesheet" type="text/css" href="jquery.mobile-1.1.0.min.css" />
     <title> Test Diplomarbeit</title>
@@ -39,7 +72,7 @@
                 <li><a href="#page1" data-role="button" data-theme="b">Last Minute</a></li>
                 <li><a href="#show-toolbar" data-role="button" data-theme="b">Pauschalreisen</a></li>
                 <li><a href="#page2" data-role="button" data-theme="b">Städtereisen</a></li>
-                <li><a href="#page2" data-role="button" data-theme="b">Fernreisen</a></li>
+                <li><a href="#dynamic-list" data-role="button" data-theme="b">Fernreisen</a></li>
                 <!--<li><a href="#page2" data-role="button" data-theme="b">Flüge</a></li>-->
             </ul>
         </div>
@@ -411,6 +444,17 @@
     </div>
 
 
+</div>
+
+<div data-role="page" id="dynamic-list">
+
+    <div data-role="content">
+        <a href="javascript:getPlaces()">Aktualisieren</a>
+        <h3>Topregionen</h3>
+        <ul data-role="listview" id="placeList" data-inset="true">
+
+        </ul>
+    </div>
 </div>
 
 </body>
